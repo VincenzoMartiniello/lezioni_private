@@ -1,0 +1,10 @@
+.testo2 {
+    color: blue;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: justify;
+}

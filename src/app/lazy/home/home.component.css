@@ -1,0 +1,19 @@
+.centro{
+    display: flex;
+    justify-content: center;
+}
+.carousel {
+    width:440px;
+    height:160px;
+  }
+.box {
+    border: 5px dotted blue;
+    width: 350px;
+    height: 200px;
+    background-color: whitesmoke;
+    text-align: center;
+    color:cornflowerblue;
+}
+p{
+    text-align: justify;
+}

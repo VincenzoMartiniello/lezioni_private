@@ -1,0 +1,72 @@
+<br>
+<div class="centro">
+   <div class="card w-50">
+     <div class="card-body">
+      <h5 class="card-title testo2">Quadrato magico</h5>
+      <p class="card-text">Un quadrato magico è una disposizione di numeri interi in forma di tabella quadrata in cui siano rispettate due condizioni: i valori siano tutti distinti tra loro e la somma dei numeri presenti in ogni riga, in ogni colonna, e in entrambe le diagonali, dia sempre lo stesso risultato; tale intero è denominato "costante di magia" del quadrato (o "costante magica", o "somma magica").</p>
+     </div>
+   </div>
+</div>
+<br>
+
+
+<br>
+<div class="centro"> 
+    <h6>Inserisci i numeri nel quadrato e poi premi invio.</h6>
+</div>
+<br> 
+<div class="centro">
+  <div class="card" style="width: 16rem">
+    <div class="card-body">
+    <div class="centro">    
+    <form class="row g-3" [formGroup]="form">
+    
+      <div class="col-4">
+        <input type="number" appNumeri class="form-control col-4" id="x11" formControlName="x11" >
+      </div>
+      <div class="col-4 ">
+        <input type="number" appNumeri class="form-control  col-4" id="x12" formControlName="x12">
+      </div>
+      <div class="col-4 ">
+        <input type="number" appNumeri class="form-control col-4" id="x13" formControlName="x13">
+      </div>
+      <div class="col-4 ">
+        <input type="number" appNumeri class="form-control col-md-4 col-4" id="x21" formControlName="x21">
+      </div>
+      <div class="col-4 ">
+        <input type="number" appNumeri class="form-control col-4" id="x22" formControlName="x22">
+      </div>
+      <div class="col-4  ">
+        <input type="number" appNumeri class="form-control col-4" id="x23" formControlName="x23">
+      </div>
+      <div class="col-4">
+        <input type="number" appNumeri class="form-control col-4" id="x31" formControlName="x31">
+      </div>
+      <div class="col-4 ">
+        <input type="number" appNumeri class="form-control col-4" id="x32" formControlName="x32">
+      </div>
+      <div class="col-4">
+        <input type="number" appNumeri class="form-control col-4 " id="x33" formControlName="x33">
+      </div>
+      <div > 
+        <div class="row g-3">
+          <div class="col-6">
+            <label for="exampleInputPassword1" class="form-label"></label><br>
+            <button type="button" class="btn btn-danger btn-sm" (click)="onReset()">Reset</button>
+          </div>
+          <div class="col-6">
+            <label for="exampleInputPassword1" class="form-label"></label><br>
+            <button type="button" class="btn btn-primary btn-sm" (click)="onInvia()">Invia</button>
+          </div>
+        </div>
+           <br>
+          {{result}}
+    </div>
+    </form>
+    </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
