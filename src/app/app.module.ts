@@ -10,7 +10,6 @@ import { DoposcuolaModule } from './lazy/doposcuola/doposcuola.module';
 import { HomeModule } from './lazy/home/home.module';
 import { ChiSiamoModule } from './lazy/chi-siamo/chi-siamo.module';
 import { IntrattenimentoModule } from './lazy/intrattenimento/intrattenimento.module';
-
 @NgModule({
   declarations: [
     AppComponent
@@ -24,7 +23,8 @@ import { IntrattenimentoModule } from './lazy/intrattenimento/intrattenimento.mo
     DoposcuolaModule,
     HomeModule,
     ChiSiamoModule,
-    IntrattenimentoModule
+    IntrattenimentoModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
